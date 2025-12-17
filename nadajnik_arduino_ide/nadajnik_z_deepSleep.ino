@@ -16,7 +16,7 @@ const int8_t  RF_PWR_DBM  = 22;
 
 // Konfiguracja deep sleep
 const uint64_t uS_TO_S_FACTOR = 1000000ULL; // przelicznik sekund na mikrosekundy
-const uint64_t TIME_TO_SLEEP = 1200;  // czas snu
+const uint64_t TIME_TO_SLEEP = 7200;  // czas snu
 
 // konfiguracja elektronicznego włącznika zasilania czujników
 #define SENSORS_ON 44   // D7 = GPIO44
