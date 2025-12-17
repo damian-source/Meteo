@@ -224,7 +224,7 @@ while True:
             if analogSensor <= tresholodDetection:
                 mailDetected = True
     # Tu ustaw timeout wyświetlania ikonki błędu czujnika listu
-    if now - last_lora > timedelta(minutes=60):
+    if now - last_lora > timedelta(minutes=180):
         mailError = True
 
 
