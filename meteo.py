@@ -221,10 +221,13 @@ while True:
         mailError = False
         last_lora = datetime.now()
         for analogSensor in listAnalogSensors:
-            if analogSensor <= tresholodDetection:
-                mailDetected = True
+            try:
+                if analogSensor <= tresholodDetection:
+                    mailDetected = True
+            except:
+                pass
     # Tu ustaw timeout wyświetlania ikonki błędu czujnika listu
-    if now - last_lora > timedelta(minutes=180):
+    if now - last_lora > timedelta(minutes=400):
         mailError = True
 
 
@@ -297,3 +300,4 @@ while True:
     pygame.display.flip()
     clock.tick(1)
     loop.run_until_complete(asyncio.sleep(0))
+
