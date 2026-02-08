@@ -31,16 +31,29 @@ miasto = "Lodz"
 
 # ---------- Ikony pogody ----------
 ikony_day = {
+    "Blowing snow": "blowing_snow.png",
     "Clear": "sunny.png",
     "Cloudy": "cloudy.png",
+    "Drizzle": "drizzle.png",
     "Fog": "haze_fog_dust_smoke.png",
+    "Freezing drizzle": "drizzle.png",
+    "Freezing fog": "haze_fog_dust_smoke.png",
     "Haze": "haze_fog_dust_smoke.png",
     "Heavy rain": "heavy_rain.png",
     "Heavy rain at times": "heavy_rain.png",
+    "Heavy snow": "heavy_snow.png",
     "Light drizzle": "drizzle.png",
+    "Light drizzle and rain": "drizzle.png",
+    "Light freezing drizzle": "drizzle.png",
+    "Light freezing rain": "wintry_mix_rain_snow.png",
     "Light rain": "drizzle.png",
+    "Light rain and snow": "wintry_mix_rain_snow.png",
     "Light rain shower": "scattered_showers_day.png",
-    "Light rain, haze": "drizzle.png",
+    "Light sleet": "sleet_hail.png",
+    "Light snow": "flurries.png",
+    "Light snow grains": "flurries.png",
+    "Light snow shower": "snow_showers_snow.png",
+    "Low drifting snow": "blowing_snow.png",
     "Mist": "haze_fog_dust_smoke.png",
     "Moderate or heavy rain in area with thunder": "isolated_scattered_tstorms_day.png",
     "Moderate or heavy rain shower": "scattered_showers_day.png",
@@ -48,38 +61,49 @@ ikony_day = {
     "Moderate rain": "heavy_rain.png",
     "Moderate rain at times": "heavy_rain.png",
     "Overcast": "cloudy.png",
+    "Parftial fog": "haze_fog_dust_smoke.png",  # poprawka literówki z logów
     "Partly Cloudy": "partly_cloudy.png",
     "Partly cloudy": "partly_cloudy.png",
+    "Patches of fog": "haze_fog_dust_smoke.png",
+    "Patchy heavy snow": "heavy_snow.png",
     "Patchy light drizzle": "drizzle.png",
     "Patchy light rain": "drizzle.png",
-    "Patchy rain nearby": "drizzle.png",
-    "Rain shower": "scattered_showers_day.png",
-    "Rain with thunderstorm": "isolated_scattered_tstorms_day.png",
-    "Shower in vicinity": "scattered_showers_day.png",
-    "Shower in vicinity, rain shower": "scattered_showers_day.png",
-    "Sunny": "sunny.png",
-    "Thundery outbreaks in nearby": "isolated_scattered_tstorms_day.png",
-    "Freezing fog": "haze_fog_dust_smoke.png",
-    "Heavy snow": "heavy_snow.png",
-    "Light freezing rain": "wintry_mix_rain_snow.png",
-    "Light rain, mist": "drizzle.png",
-    "Light sleet": "sleet_hail.png",
-    "Patchy heavy snow": "heavy_snow.png",
     "Patchy light snow": "flurries.png",
     "Patchy moderate snow": "heavy_snow.png",
-    "Patchy snow nearby": "flurries.png"
+    "Patchy rain nearby": "drizzle.png",
+    "Patchy snow nearby": "flurries.png",
+    "Rain": "showers_rain.png",
+    "Rain shower": "scattered_showers_day.png",
+    "Rain with thunderstorm": "isolated_scattered_tstorms_day.png",
+    "Shallow fog": "haze_fog_dust_smoke.png",
+    "Shower in vicinity": "scattered_showers_day.png",
+    "Snow": "heavy_snow.png",
+    "Snow grains": "flurries.png",
+    "Snow shower": "snow_showers_snow.png",
+    "Sunny": "sunny.png",
+    "Thundery outbreaks in nearby": "isolated_scattered_tstorms_day.png"
 }
+
 ikony_night = {
+    "Blowing snow": "blowing_snow.png",
     "Clear": "clear_night.png",
     "Cloudy": "cloudy.png",
     "Fog": "haze_fog_dust_smoke.png",
+    "Freezing drizzle": "drizzle.png",
+    "Freezing fog": "haze_fog_dust_smoke.png",
     "Haze": "haze_fog_dust_smoke.png",
     "Heavy rain": "heavy_rain.png",
     "Heavy rain at times": "heavy_rain.png",
+    "Heavy snow": "heavy_snow.png",
     "Light drizzle": "drizzle.png",
+    "Light freezing drizzle": "drizzle.png",
+    "Light freezing rain": "wintry_mix_rain_snow.png",
     "Light rain": "drizzle.png",
     "Light rain shower": "scattered_showers_night.png",
-    "Light rain, haze": "drizzle.png",
+    "Light sleet": "sleet_hail.png",
+    "Light snow": "flurries.png",
+    "Light snow shower": "snow_showers_snow.png",
+    "Low drifting snow": "blowing_snow.png",
     "Mist": "haze_fog_dust_smoke.png",
     "Moderate or heavy rain in area with thunder": "isolated_scattered_tstorms_night.png",
     "Moderate or heavy rain shower": "scattered_showers_night.png",
@@ -87,26 +111,24 @@ ikony_night = {
     "Moderate rain": "heavy_rain.png",
     "Moderate rain at times": "heavy_rain.png",
     "Overcast": "cloudy.png",
+    "Parftial fog": "haze_fog_dust_smoke.png",
     "Partly Cloudy": "partly_cloudy_night.png",
     "Partly cloudy": "partly_cloudy_night.png",
+    "Patches of fog": "haze_fog_dust_smoke.png",
+    "Patchy heavy snow": "heavy_snow.png",
     "Patchy light drizzle": "drizzle.png",
     "Patchy light rain": "drizzle.png",
-    "Patchy rain nearby": "drizzle.png",
-    "Rain shower": "scattered_showers_night.png",
-    "Rain with thunderstorm": "isolated_scattered_tstorms_night.png",
-    "Shower in vicinity": "scattered_showers_night.png",
-    "Shower in vicinity, rain shower": "scattered_showers_night.png",
-    "Sunny": "mostly_clear_night.png",
-    "Thundery outbreaks in nearby": "isolated_scattered_tstorms_night.png",
-    "Freezing fog": "haze_fog_dust_smoke.png",
-    "Heavy snow": "heavy_snow.png",
-    "Light freezing rain": "wintry_mix_rain_snow.png",
-    "Light rain, mist": "drizzle.png",
-    "Light sleet": "sleet_hail.png",
-    "Patchy heavy snow": "heavy_snow.png",
     "Patchy light snow": "flurries.png",
     "Patchy moderate snow": "heavy_snow.png",
-    "Patchy snow nearby": "flurries.png"
+    "Patchy rain nearby": "drizzle.png",
+    "Patchy snow nearby": "flurries.png",
+    "Rain shower": "scattered_showers_night.png",
+    "Rain with thunderstorm": "isolated_scattered_tstorms_night.png",
+    "Shallow fog": "haze_fog_dust_smoke.png",
+    "Shower in vicinity": "scattered_showers_night.png",
+    "Snow shower": "snow_showers_snow.png",
+    "Sunny": "mostly_clear_night.png",
+    "Thundery outbreaks in nearby": "isolated_scattered_tstorms_night.png"
 }
 
 # ---------- Pogoda ----------
@@ -135,14 +157,16 @@ def pobierz_temperature():
         return None
 
 def dopasuj_ikone(opis, godzina):
-    # Zapisuje opisy pogodowe do których nie znaleziono przyporządkowania ikonki
-    if opis not in ikony_day or opis not in ikony_night:
+    opis = opis.split(',')[0].strip() # strip() usunie spakcje po przecinku
+    # Wybieramy odpowiedni słownik na start
+    slownik = ikony_day if godzina < 20 else ikony_night
+    
+    if opis not in slownik:
         with open('not_matched.txt', "a", encoding="utf-8") as file:
-            file.write(f'{opis}\n')  
-    if godzina < 20:
-        return ikony_day.get(opis, "cloudy.png")
-    else:
-        return ikony_night.get(opis, "cloudy.png")
+            file.write(f'{opis}\n')
+        return "cloudy.png"
+    
+    return slownik.get(opis)
 
 
 
@@ -166,7 +190,7 @@ def ble_callback(device, advertisement_data):
                     if "-" in tekst:
                         temp_str, batt_str = tekst.split("-")
                         dom_temp = f"{temp_str}°C"
-                        dom_batt = f"{batt_str}%"
+                        dom_batt = f"bat:{batt_str}%"
                         ostatnie_ble = datetime.now()
                         print(f"[BLE] {dom_temp}, {dom_batt}")
                 except:
@@ -211,9 +235,13 @@ while True:
     if line:
         # parsowanie z RX OK: 4095,4095,4095,4095,4095 | RSSI=-83.0 dBm, SNR=6.7 dB, FErr=193 Hz
         # do listy surowych wartości analogowych
+        with open('mail_logs.txt', 'a', encoding='utf-8') as file:
+            file.write(f'{now}: {line} \n')
         try:
             listAnalogSensors = line[7:].split(' | ')[0].split(',')
             listAnalogSensors = [int(x) for x in listAnalogSensors]
+
+            
         except:
             pass
         #print(listAnalogSensors)
